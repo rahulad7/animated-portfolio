@@ -1,0 +1,44 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #a8c66c;
+    color: black;
+    
+    .bg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 400px;
+        background: #a8c66c;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a{
+        font-size: 40px;
+    }
+
+    button{
+        width: 51px;
+        height: 56px;
+        border-radius: 50%;
+        position: fixed;
+        top: 25px;
+        left: 25px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
