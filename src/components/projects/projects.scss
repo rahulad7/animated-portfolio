@@ -1,0 +1,22 @@
+.project{
+    position: relative;
+
+    .progress{
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding-top: 50px;
+        text-align: center;
+        // font-size: 40px;
+    }
+
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .progressBar{
+        height: 10px;
+        color: #7F8C8D;
+    }
+}
