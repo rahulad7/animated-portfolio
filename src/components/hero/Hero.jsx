@@ -1,6 +1,8 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
 import scroll from "../../assets/scrolls.png";
+import boyCoding from '../../lottie/boy-coding.json';
+import Lottie from "lottie-react";
 
 const textVariants = {
   initial: {
@@ -30,7 +32,7 @@ const SliderVariants = {
     x: 0,
   },
   animate: {
-    x: "-120%",
+    x: "-100%",
     transition: {
       repeat: Infinity,
       repeatType: "loop",
@@ -62,6 +64,9 @@ const Hero = () => {
             alt=""
           />
         </motion.div>
+        <div className="animation-main">
+          <Lottie animationData={boyCoding} />
+        </div>
       </div>
       <motion.div
         className="sliding-text"

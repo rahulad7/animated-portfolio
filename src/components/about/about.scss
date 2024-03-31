@@ -1,0 +1,97 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+
+    .about-me{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+
+        .rd-name{
+            font-size: 30px;
+            font-weight: 600;
+            // margin-bottom: 5px;
+        }
+        
+        .rd-role{
+            font-size: 15px;
+            font-weight: 500;
+            color: #5956e9;
+            margin-bottom: 10px;
+        }
+
+        .rd-info{
+            font-size: 15px;
+            line-height: 24px;
+            max-width: 500px;
+            color: #8a90a2;
+            margin-bottom: 10px;
+        }
+
+        .rd-desc{
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 4px
+        }
+
+        span{
+            font-size: 15px;
+            font-weight: 400;
+            color: #8a90a2;
+        }
+
+        .cv-button{
+            padding: 10px 30px;
+            border-radius: 10px;
+            border: none;
+            background: #a8c66c;
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 5px;
+            color: #424949;
+            transition: all .3s ease-out 0s;
+            cursor: pointer;
+        }
+    }
+
+    .rd-image{
+        width: 320px;
+        height: 320px;
+        border-radius: 10px;
+    }
+
+    .college-logo{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .college-flex{
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .college-info{
+        font-size: 15px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+    
+    // .animation-laptop{
+    //     margin-bottom: 50px;
+    // }
+}

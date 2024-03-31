@@ -75,7 +75,7 @@ const menuVariants = {
 };
 
 const Links = () => {
-  const menu = ["Homepage", "Skills","Projects", "About", "Contact"];
+  const menu = ["Homepage", "Skills", "About", "Projects", "Contact"];
 
   return (
     <motion.div className="links" variants={variants}>

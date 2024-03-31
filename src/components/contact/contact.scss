@@ -1,0 +1,40 @@
+.contact-container{
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #292930;
+
+    .contact-heading{
+        font-size: 50px;
+        text-align: center;
+        color: white;
+    }
+
+    .contact-hit{
+        font-size: 40px;
+        text-align: center;
+        color: #a8c66c;
+    }
+
+    .form-container{
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        input{
+            padding: 20px;
+            background-color: transparent;
+            border: 1px solid white;
+
+        }
+    }
+}

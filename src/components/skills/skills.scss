@@ -2,7 +2,7 @@
     // height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
     height: auto;
     align-items: center;
     // justify-content: space-between;
@@ -12,6 +12,16 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
+        justify-content: center;
+        align-items: center;
+
+        .skill-flex{
+            display: grid;
+            grid-template-columns: 200px 150px;
+            grid-template-rows: 50px;
+            column-gap: 100px;
+            row-gap: 80px;
+        }
     }
 
     .skill-heading{
@@ -22,6 +32,8 @@
     }
 
     .company-flex{
+        width: 100%;
+        max-width: 1200px;
         display: flex;
         flex-direction: row;
         gap: 10px;
@@ -48,11 +60,27 @@
         margin-bottom: 10px;
     }
 
-    .experience-info{
-        font-size: 20px;
-        margin-bottom: 5px;
+    .experience-details{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        max-width: 800px;
+
+        .experience-heading{
+            font-size: 18px;
+            font-weight: 600;
+            // color: black;
+        }
+
+        .experience-role{
+            font-size: 15px;
+            color: #5956e9;
+        }
+
+        .experience-info{
+            font-size: 15px;
+            color: #8a90a2;
+            font-weight: 400;
+        }
     }
-
-    
-
 }
